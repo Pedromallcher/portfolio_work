@@ -1,0 +1,247 @@
+{
+    "locales": {
+        "en": {
+            "title": "Bem-Vindo",
+            "title_menu": "Sobre mim",
+            "title_long_prefix": "Olá",
+            "title_long": "Eu sou **Pedro Malcher**"
+        }
+
+      
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {}
+                
+            },
+
+            "items": [
+                {
+                    "value": "Santarém – PA",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "pedromallcher@gmail.com",
+                    "links": [
+                        {"href": "mailto:pedromallcher@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@Pedromallcher",
+                    "links": [
+                        {"href": "https://github.com/Pedromallcher"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**Um pouco** sobre mim..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>Trabalho na área de sistemas e redes, sendo responsável pela infraestrutura, como servidores e softwares de monitoramento da rede. Nas horas livres, gosto de desenvolver projetos pessoais como forma de me desafiar e testar meus conhecimentos. Atualmente, estou me aprofundando no framework React e explorando ferramentas que otimizam meu workflow, como o Figma, mesmo não sendo web designer. Além disso, venho aprimorando meu domínio em ferramentas colaborativas, como Git e GitHub, integrando-as gradualmente à minha rotina. Estou sempre em busca de conhecimento e aprendizado para evoluir constantemente."}
+                        
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "testimonials",
+            "component": "ArticleTestimonials",
+            "config": {},
+            "locales": {
+                "en": {"title": "Frases para **Motivaçao**"}
+
+            },
+
+            "items": [
+                {
+                   
+                    
+                    "locales": {
+                        "en": {
+                           
+                            "text": "O único modo de fazer um ótimo trabalho é amar o que você faz. – Steve Jobs"
+                        }
+                       
+                    }
+                },
+
+                {
+                   
+                    
+                    
+                    "locales": {
+                        "en": {
+                           
+                            "text": "A evolução tecnológica é inevitável, mas cabe a nós moldá-la para que ela faça sentido para o futuro que desejamos criar."
+                        }
+                       
+                    }
+                },
+
+                {
+                  
+                    
+                    
+                    "locales": {
+                        "en": {
+                            
+                            "text": "Em um mundo onde a mudança é constante, a capacidade de aprender e se adaptar à tecnologia se torna a chave para o sucesso."
+                        }
+                       
+                    }
+                },
+
+                {
+                    
+                    
+    
+                    "locales": {
+                        "en": {
+                          
+                            "text": "O código é como um quebra-cabeça. Às vezes, a solução está bem na nossa frente, mas é preciso paciência e lógica para encaixar todas as peças."
+                        }
+                    
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Interesses **Pessoais**"},
+                "es": { "title": "Intereses **personales**" },
+                "fr": { "title": "Intérêts **personnels** " },
+                "ko": { "title": "개인 **관심사**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-film",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Filmes",
+                            "info": "Tenho interesse em filmes pela sua capacidade de explorar diferentes narrativas e técnicas cinematográficas, além de ser uma excelente forma de análise cultural e criativa."
+                        }
+                       
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-plane",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Viagens",
+                            "info": "Aprecio viagens por proporcionarem a oportunidade de conhecer novas culturas, expandir horizontes e aprender com diferentes realidades e experiências ao redor do mundo."
+                        }
+                       
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-utensils",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Comidas",
+                            "info": "Tenho interesse por comidas devido à diversidade de sabores e técnicas culinárias, que refletem a cultura e história de diferentes regiões."
+                        }
+                    
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-chart-line",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Investimentos",
+                            "info": "Tenho interesse por investimentos porque acredito na importância de tomar decisões financeiras estratégicas para o crescimento pessoal e a conquista de objetivos de longo prazo."
+                        }
+                        
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-car-side",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Carros",
+                            "info": "Tenho interesse por carros devido à sua combinação de engenharia, design e inovação tecnológica, além de apreciar o desempenho e a evolução da indústria automobilística."
+                        }
+            
+                    }
+                }
+
+            
+            ]
+        }
+    ]
+}
