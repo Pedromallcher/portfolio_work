@@ -1,28 +1,11 @@
 {
     "locales": {
         "en": {
-            "title": "Education",
+            "title": "Educaçao",
             "title_long_prefix": "This is my",
             "title_long": "**Educational** Background"
-        },
-
-        "es": {
-            "title": "Educación",
-            "title_long_prefix": "Esta es mi",
-            "title_long": "**Formación** Educativa"
-        },
-
-        "fr": {
-            "title": "Éducation",
-            "title_long_prefix": "C'est mon",
-            "title_long": "**Contexte** Éducatif"
-        },
-
-        "ko": {
-            "title": "교육",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**교육적** 배경"
         }
+
     },
 
     "articles": [
